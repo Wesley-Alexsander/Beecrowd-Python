@@ -1,0 +1,8 @@
+# 1014 - Consumo
+
+km = int(input())
+litros = float(input())
+
+consumo = km /litros
+
+print("{:.3f} km/l".format(consumo))

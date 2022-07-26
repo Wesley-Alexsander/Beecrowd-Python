@@ -1,5 +1,7 @@
 # 1015 - Distância Entre Dois Pontos
 
+""""""
+
 import math
 
 x1, y1 = input().split()
@@ -13,6 +15,7 @@ y2= float(y2)
 firstCoordinate = (x2 - x1) ** 2
 secondCoordinate = (y2 - y1) ** 2
 
+# Outra forma de fazer uma raiz quadrada é exponenciar o valor por (1/2)
 answer = math.sqrt(firstCoordinate + secondCoordinate)
 
 print(f"{answer:.4f}")
